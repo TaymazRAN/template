@@ -1,12 +1,13 @@
+import Flex from "./flex/Flex";
+import Footer from "./template/Footer";
 import Menu from "./template/Menu";
-
-
 
 function App() {
   return (
     <div className="App">
-     <Menu/>
- 
+      <Menu />
+      <Footer />
+      <Flex />
     </div>
   );
 }
